@@ -20,7 +20,7 @@ const Home = () => {
 
       <Hero
         customImage
-        containerClass="py-[50px] md:py-[85px] bg-auto bg-right-bottom mix-blend-multiply"
+        containerClass="py-[50px] md:py-[85px] bg-auto bg-right-bottom"
         contentClass="lg:max-w-[529px]"
         content={heroContent} />
 

@@ -51,13 +51,20 @@
     @apply md:left-1/2;
     @apply md:ml-[-180px];
   }
+  .two-columns-with-image-container .column-content h1::after,
+  .two-columns-with-image-container .column-content h2::after,
+  .two-columns-with-image-container .column-content h3::after {
+    @apply md:left-0;
+    @apply md:ml-0;
+  }
   h1,
   h2,
   .team-container .team-item-container > .profile .full-name,
   .team-container .team-item-container > .profile .role,
   .articles-container .articles-item-container > .meta .title,
   footer h3 {
-    @apply leading-[57px];
+    @apply leading-[48px];
+    @apply md:leading-[57px];
     @apply text-[34px];
   }
   p {
@@ -82,7 +89,8 @@
   }
   [type='submit'],
   .btn-default {
-    @apply w-[200px];
+    @apply w-full;
+    @apply md:w-[200px];
     @apply py-[13px];
     @apply uppercase;
     @apply text-center;
@@ -105,12 +113,12 @@
     @apply lg:py-[134px];
   }
 
-  @media (min-width: 1440px) {
+  /* @media (min-width: 1440px) {
     .container,
     .icon-box-container {
       @apply px-0;
     }
-  }
+  } */
 }
 
 @layer utilities {
@@ -188,6 +196,7 @@
     @apply py-[50px];
     @apply md:py-[100px];
     @apply bg-cover;
+    @apply bg-center;
     @apply mix-blend-multiply;
   }
   .hero-container.regular::after {
@@ -289,9 +298,11 @@
     @apply bg-[#F6F6F6];
   }
   .two-columns-with-image-container .column-image {
-    @apply min-h-[350px];
-    @apply lg:min-h-0;
+    @apply min-h-[190px];
+    /* @apply lg:min-h-0; */
+    @apply lg:min-h-[332px];
     @apply bg-cover;
+    @apply bg-center;
     @apply order-last;
   }
   .two-columns-with-image-container .column-image:not(.order-last) {
@@ -355,6 +366,8 @@
   .team-container .team-item-container > .description {
     @apply mt-[30px];
     @apply sm:mt-[50px];
+    @apply text-center;
+    @apply md:text-left;
   }
   .articles-container {
     background: transparent linear-gradient(270deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
@@ -414,7 +427,8 @@
     content: none;
   }
   .articles-container .articles-item-container > .meta .author {
-    @apply leading-[55px];
+    @apply leading-[42px];
+    @apply md:leading-[55px];
     @apply pt-[10px];
     @apply text-[30px];
     @apply font-normal;
@@ -474,5 +488,19 @@
     @apply w-[22px];
     @apply h-[22px];
     @apply mt-[5px];
+  }
+
+  @media (max-width: 767px) {
+    .hero-container .column-content,
+    .two-columns-with-image-container .column-content,
+    .container .column {
+      text-align: center;
+    }
+    .hero-container .column-content .btn-default,
+    .two-columns-with-image-container .column-content .btn-default,
+    .container .column .btn-default {
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 }

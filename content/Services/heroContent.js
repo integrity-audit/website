@@ -19,5 +19,5 @@ export const heroContent = {
         <a className="btn-default">Contact Us</a>
       </Link>
     </>,
-  image: '/img-bg-hero.jpg'
+  image: '/img-bg-hero.png'
 }

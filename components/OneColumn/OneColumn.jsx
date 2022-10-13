@@ -2,7 +2,7 @@ const OneColumn = ({ bgImage = false, bgColor = 'transparent', containerClass = 
   return (
     <div className={`one-column-container ${bgImage ? 'bg-image' : ''}`} style={{backgroundImage: `${bgImage && content.image !== '' ? 'url(' + content.image + ')' : 'none'}`, backgroundColor: `${bgColor}`}}>
       <div className={`container ${containerClass !== '' ? containerClass : ''}`}>
-        <div className={`${colClass}`}>
+        <div className={`column ${colClass}`}>
           {content.content}
         </div>
       </div>
