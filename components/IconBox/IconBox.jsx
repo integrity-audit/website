@@ -1,4 +1,7 @@
+import Link from 'next/link'
 import Image from 'next/future/image'
+
+const ConditionalWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children
 
 const IconBox = ({ container = false, centerContent = false, iconOnLeft = false, bgContainer = 'none', containerId = '', containerClass = '', itemClass = '', content }) => {
   return (
@@ -10,11 +13,16 @@ const IconBox = ({ container = false, centerContent = false, iconOnLeft = false,
           {content.items.map((item, idx) =>
             <div key={idx} className={`${itemClass}`}>
               <div className={`box-icon ${iconOnLeft ? 'icon-on-left' : ''}`}>
-                <Image
-                  className={`${centerContent ? 'mx-auto' : ''} ${iconOnLeft ? '' : 'mb-[15px] md:mb-[25px]'}`}
-                  src={item.icon}
-                  alt={item.alt} />
-                {item.title}
+                <ConditionalWrapper
+                  condition={item.link}
+                  wrapper={children => <Link href={item.link}><a>{children}</a></Link>}
+                >
+                  <Image
+                    className={`${centerContent ? 'mx-auto' : ''} ${iconOnLeft ? '' : 'mb-[15px] md:mb-[25px]'}`}
+                    src={item.icon}
+                    alt={item.alt} />
+                  {item.title}
+                </ConditionalWrapper>
               </div>
               {item.content !== '' && <div className="box-content">{item.content}</div>}
             </div>
