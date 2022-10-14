@@ -174,9 +174,9 @@
     @apply w-full;
     @apply lg:w-auto;
     @apply leading-[24px];
-    @apply text-[20px];
+    @apply text-[19px];
     @apply lg:text-[15px];
-    @apply xl:text-[20px];
+    @apply xl:text-[19px];
     @apply uppercase;
   }
   header .nav svg {
@@ -300,6 +300,7 @@
     @apply min-h-[190px];
     @apply lg:min-h-[332px];
     @apply bg-cover;
+    @apply bg-no-repeat;
     @apply bg-center;
     @apply order-last;
   }
