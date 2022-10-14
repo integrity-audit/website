@@ -11,7 +11,7 @@ const IconBox = ({ container = false, centerContent = false, iconOnLeft = false,
             <div key={idx} className={`${itemClass}`}>
               <div className={`box-icon ${iconOnLeft ? 'icon-on-left' : ''}`}>
                 <Image
-                  className={`${centerContent ? 'mx-auto' : ''} ${iconOnLeft ? '' : 'mb-[25px]'}`}
+                  className={`${centerContent ? 'mx-auto' : ''} ${iconOnLeft ? '' : 'mb-[15px] md:mb-[25px]'}`}
                   src={item.icon}
                   alt={item.alt} />
                 {item.title}

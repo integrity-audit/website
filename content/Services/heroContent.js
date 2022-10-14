@@ -6,7 +6,7 @@ import icoJointVenturePartnershipAuditing from '../../public/img-ico-joint-ventu
 export const heroContent = {
   content:
     <>
-      <h1 className="title flex items-center">
+      <h1 className="title flex items-center" style={{textAlign: 'left !important'}}>
         <Image
           className="width-77"
           src={icoJointVenturePartnershipAuditing}

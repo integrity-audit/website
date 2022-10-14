@@ -20,7 +20,7 @@ const Services = () => {
 
       <Hero
         customImage
-        containerClass="py-[50px] md:py-[85px] bg-auto bg-right-bottom"
+        containerClass="pt-[50px] pb-[194px] md:pt-[85px] md:pb-[400px] lg:py-[85px] bg-contain md:bg-auto bg-right-bottom"
         contentClass="lg:max-w-[570px]"
         content={heroContent} />
 

@@ -9,7 +9,8 @@
   body {
     @apply font-body;
     @apply font-normal;
-    @apply text-lg;
+    @apply text-sm;
+    @apply md:text-lg;
     @apply text-tertiary;
   }
   h1,
@@ -63,9 +64,10 @@
   .team-container .team-item-container > .profile .role,
   .articles-container .articles-item-container > .meta .title,
   footer h3 {
-    @apply leading-[48px];
+    @apply leading-[42px];
     @apply md:leading-[57px];
-    @apply text-[34px];
+    @apply text-[25px];
+    @apply md:text-[34px];
   }
   p {
     @apply mb-7;
@@ -89,8 +91,7 @@
   }
   [type='submit'],
   .btn-default {
-    @apply w-full;
-    @apply md:w-[200px];
+    @apply w-[200px];
     @apply py-[13px];
     @apply uppercase;
     @apply text-center;
@@ -98,6 +99,10 @@
     @apply bg-primary;
     @apply hover:bg-secondary;
     @apply block;
+  }
+  [type='submit'] {
+    @apply w-full;
+    @apply md:w-[200px];
   }
   .container,
   .icon-box-container {
@@ -112,13 +117,6 @@
     @apply md:py-[90px];
     @apply lg:py-[134px];
   }
-
-  /* @media (min-width: 1440px) {
-    .container,
-    .icon-box-container {
-      @apply px-0;
-    }
-  } */
 }
 
 @layer utilities {
@@ -220,7 +218,8 @@
   }
   .hero-container .column-content .title {
     @apply mb-[30px];
-    @apply gap-[42px];
+    @apply gap-[22px];
+    @apply md:gap-[42px];
   }
   .hero-container.regular .column-content .title {
     @apply mb-0;
@@ -237,8 +236,8 @@
     @apply flex-[0_0_77px];
   }
   .hero-container .column-content .sub-title {
-    @apply leading-[43px];
-    @apply text-[30px];
+    @apply md:leading-[43px];
+    @apply md:text-[30px];
     @apply text-[#7B7B7B];
   }
   .hero-container .column-content p:last-of-type {
@@ -299,7 +298,6 @@
   }
   .two-columns-with-image-container .column-image {
     @apply min-h-[190px];
-    /* @apply lg:min-h-0; */
     @apply lg:min-h-[332px];
     @apply bg-cover;
     @apply bg-center;
