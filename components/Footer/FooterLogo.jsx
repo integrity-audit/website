@@ -6,7 +6,7 @@ const FooterLogo = () => {
     <Image
       className="mx-auto mb-[50px]"
       src={imgLogo}
-      alt={process.env.siteName} />
+      alt={process.env.NEXT_PUBLIC_SITE_NAME} />
   )
 }
 

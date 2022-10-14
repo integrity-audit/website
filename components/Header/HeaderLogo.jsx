@@ -8,7 +8,7 @@ const HeaderLogo = () => {
       <a className="logo">
         <Image
           src={imgLogo}
-          alt={process.env.siteName} />
+          alt={process.env.NEXT_PUBLIC_SITE_NAME} />
       </a>
     </Link>
   )

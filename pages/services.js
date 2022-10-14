@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <>
       <Head>
-        <title>Services | {process.env.siteName}</title>
+        <title>Services | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
         <meta name="description" content="" />
       </Head>
 

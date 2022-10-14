@@ -7,7 +7,7 @@ export const ourMissionContent = {
       <Image
         className="mx-auto"
         src={imgLogo}
-        alt={process.env.siteName} />
+        alt={process.env.NEXT_PUBLIC_SITE_NAME} />
     </>,
   col2Content:
     <>

@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>{process.env.siteName}</title>
+        <title>{process.env.NEXT_PUBLIC_SITE_NAME}</title>
         <meta name="description" content="" />
       </Head>
 

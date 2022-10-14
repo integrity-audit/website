@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <>
       <Head>
-        <title>About Integrity | {process.env.siteName}</title>
+        <title>About Integrity | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
         <meta name="description" content="" />
       </Head>
 

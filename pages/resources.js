@@ -11,7 +11,7 @@ const Resources = () => {
   return (
     <>
       <Head>
-        <title>Joint Venture Accounting Resources | {process.env.siteName}</title>
+        <title>Joint Venture Accounting Resources | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
         <meta name="description" content="" />
       </Head>
 
