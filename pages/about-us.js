@@ -16,7 +16,7 @@ const AboutUs = () => {
     <>
       <Head>
         <title>About Integrity | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="The Integrity Audit and Accounting team." />
       </Head>
 
       <Hero content={heroContent} />

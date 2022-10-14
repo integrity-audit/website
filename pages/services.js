@@ -15,7 +15,7 @@ const Services = () => {
     <>
       <Head>
         <title>Services | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Oil and gas joint venture auditing and accounting services based in Calgary, Alberta." />
       </Head>
 
       <Hero

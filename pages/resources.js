@@ -12,7 +12,7 @@ const Resources = () => {
     <>
       <Head>
         <title>Joint Venture Accounting Resources | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
-        <meta name="description" content="" />
+        <meta name="description" content="The Integrity Audit and Accounting resources." />
       </Head>
 
       <Hero content={heroContent} />
