@@ -1,9 +1,9 @@
+import ConditionalWrapper from '../ConditionalWrapper/ConditionalWrapper'
+
 import Link from 'next/link'
 import Image from 'next/future/image'
 
-const ConditionalWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children
-
-const IconBox = ({ container = false, centerContent = false, iconOnLeft = false, bgContainer = 'none', containerId = '', containerClass = '', itemClass = '', content }) => {
+const IconBox = ({ container = false, centerContent = false, iconOnLeft = false, bgContainer = 'none', containerId = '', containerClass = '', itemClass = '', imageClass = '', content }) => {
   return (
     <div id={containerId} className="icon-box-container" style={{background: `${bgContainer}`}}>
       <div className={`container ${container ? 'p-[20px] sm:p-[50px] lg:p-[85px] bg-white' : 'p-0'} ${centerContent ? 'text-center' : ''}`}>
@@ -18,7 +18,7 @@ const IconBox = ({ container = false, centerContent = false, iconOnLeft = false,
                   wrapper={children => <Link href={item.link}><a>{children}</a></Link>}
                 >
                   <Image
-                    className={`${centerContent ? 'mx-auto' : ''} ${iconOnLeft ? '' : 'mb-[15px] md:mb-[25px]'}`}
+                    className={`${centerContent ? 'mx-auto' : ''} ${iconOnLeft ? '' : 'mb-[15px] md:mb-[25px]'} ${imageClass}`}
                     src={item.icon}
                     alt={item.alt} />
                   {item.title}

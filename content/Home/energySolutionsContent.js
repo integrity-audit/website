@@ -1,12 +1,12 @@
-import icoJointVenturePartnershipAuditing from '../../public/img-ico-joint-venture-partnership-auditing.png'
-import icoJointVentureOperationalAccounting from '../../public/img-ico-joint-venture-operational-accounting.png'
-import icoAutomationSolutionsAuditAccounting from '../../public/img-ico-automation-solutions-audit-accounting.png'
-import icoIogcTruckingAudits from '../../public/img-ico-iogc-trucking-audits.png'
-import icoFraudInvestigation from '../../public/img-ico-fraud-investigation.png'
-import icoExpertWitnessReportsMediationDisputeResolution from '../../public/img-ico-expert-witness-reports-mediation-dispute-resolution.png'
-import icoInventoriesContractComplianceVendorAudits from '../../public/img-ico-inventories-contract-compliance-vendor-audits.png'
-import icoAuditCoordinationResponses from '../../public/img-ico-audit-coordination-responses.png'
-import icoCustomIndustryTrainingInformationSessions from '../../public/img-ico-custom-industry-training-information-sessions.png'
+import icoJointVenturePartnershipAuditing from '../../public/img-ico-joint-venture-partnership-auditing.svg'
+import icoJointVentureOperationalAccounting from '../../public/img-ico-joint-venture-operational-accounting.svg'
+import icoAutomationSolutionsAuditAccounting from '../../public/img-ico-automation-solutions-audit-accounting.svg'
+import icoIogcTruckingAudits from '../../public/img-ico-iogc-trucking-audits.svg'
+import icoFraudInvestigation from '../../public/img-ico-fraud-investigation.svg'
+import icoExpertWitnessReportsMediationDisputeResolution from '../../public/img-ico-expert-witness-reports-mediation-dispute-resolution.svg'
+import icoInventoriesContractComplianceVendorAudits from '../../public/img-ico-inventories-contract-compliance-vendor-audits.svg'
+import icoAuditCoordinationResponses from '../../public/img-ico-audit-coordination-responses.svg'
+import icoCustomIndustryTrainingInformationSessions from '../../public/img-ico-custom-industry-training-information-sessions.svg'
 
 export const energySolutionsContent = {
   title: 'Intelligent Energy Solutions',

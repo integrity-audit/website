@@ -1,14 +1,14 @@
 import Image from 'next/future/image'
 import Link from 'next/link'
 
-import icoJointVenturePartnershipAuditing from '../../public/img-ico-joint-venture-partnership-auditing.png'
+import icoJointVenturePartnershipAuditing from '../../public/img-ico-joint-venture-partnership-auditing.svg'
 
 export const heroContent = {
   content:
     <>
       <h1 className="title flex items-center" style={{textAlign: 'left !important'}}>
         <Image
-          className="width-77"
+          className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
         Joint Venture & Partnership Auditing
@@ -19,5 +19,5 @@ export const heroContent = {
         <a className="btn-default">Contact Us</a>
       </Link>
     </>,
-  image: '/img-bg-hero.png'
+  image: '/img-bg-hero.jpg'
 }
