@@ -28,8 +28,10 @@ const Home = () => {
       <IconBox
         centerContent
         containerId="energy-solutions"
-        containerClass="max-w-[995px] gap-[25px] md:gap-[50px]"
-        itemClass="basis-full md:basis-1/2 lg:basis-1/3 max-w-[265px] p-[15px] md:p-[30px] hover:shadow-xl"
+        // containerClass="max-w-[995px] gap-[25px] md:gap-[50px]"
+        containerClass="max-w-[995px] gap-[25px]"
+        // itemClass="basis-full md:basis-1/2 lg:basis-1/3 max-w-[265px] p-[15px] md:p-[30px] hover:shadow-xl"
+        itemClass="basis-full md:basis-1/2 lg:basis-1/3 max-w-[265px] p-[15px] hover:shadow-xl"
         imageClass="max-w-[90px]"
         content={energySolutionsContent} />
 
