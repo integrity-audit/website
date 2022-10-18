@@ -306,7 +306,7 @@
     /* @apply lg:min-h-[332px]; */
     @apply bg-cover;
     @apply bg-no-repeat;
-    @apply bg-center;
+    /* @apply bg-center; */
     @apply order-last;
   }
   .two-columns-with-image-container .column-image:not(.order-last) {

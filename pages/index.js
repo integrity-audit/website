@@ -40,7 +40,9 @@ const Home = () => {
         imageOnRight
         content={trustedProfessionalsContent} />
 
-      <TwoColumnsWithImage content={expertsHelpContent} />
+      <TwoColumnsWithImage
+        columnImageClass="bg-top"
+        content={expertsHelpContent} />
 
       <OurMission />
     </>
