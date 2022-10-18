@@ -22,7 +22,8 @@ const Services = () => {
       <Hero
         customImage
         // containerClass="pt-[50px] pb-[194px] md:pt-[85px] md:pb-[400px] lg:py-[85px] bg-[#F6F6F6] bg-contain bg-right-bottom"
-        containerClass="pt-[50px] pb-[194px] md:pt-[85px] md:pb-[400px] lg:py-[85px] bg-[#F6F6F6] bg-cover bg-left-bottom"
+        // containerClass="pt-[50px] pb-[194px] md:pt-[85px] md:pb-[400px] lg:py-[85px] bg-[#F6F6F6] bg-cover bg-left-bottom"
+        containerClass="pt-[258px] md:pt-[505px] pb-[50px] md:pb-[85px] lg:py-[85px] bg-[#F6F6F6] bg-[length:auto_208px] md:bg-[length:auto_420px] lg:bg-cover bg-right-top lg:bg-left-bottom"
         contentClass="lg:max-w-[570px]"
         content={heroContent} />
 

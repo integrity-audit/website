@@ -87,6 +87,7 @@
   input[type='email'],
   textarea {
     @apply mb-[30px];
+    @apply text-tertiary;
     @apply border-0;
   }
   [type='submit'],
@@ -160,14 +161,14 @@
     @apply duration-300;
   }
   header .nav {
-    @apply mt-[20px];
+    @apply mt-[40px];
     @apply lg:mt-0;
     @apply text-center;
     @apply flex;
     @apply flex-wrap;
     @apply lg:flex-nowrap;
     @apply justify-center;
-    @apply gap-[15px];
+    @apply gap-[30px];
     @apply lg:gap-[33px];
     @apply 2xl:gap-[66px];
   }
@@ -282,7 +283,8 @@
     @apply top-0;
     @apply w-full;
     @apply h-full;
-    background: transparent linear-gradient(90deg, #F6F6F6 0%, #FBFBFBCC 53%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+    /* background: transparent linear-gradient(90deg, #F6F6F6 0%, #FBFBFBCC 53%, #FFFFFF00 100%) 0% 0% no-repeat padding-box; */
+    background: rgba(256, 256, 256, 0.85);
     @apply -z-[1];
   }
   .one-column-container .title {
@@ -511,6 +513,12 @@
     .container .column .btn-default {
       margin-right: auto;
       margin-left: auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .one-column-container.bg-image::after {
+      background: transparent linear-gradient(90deg, #F6F6F6 0%, #FBFBFBCC 53%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
     }
   }
 }
