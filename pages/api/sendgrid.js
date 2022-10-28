@@ -11,7 +11,7 @@ const sendEmail = async (req, res) => {
       message: ${body.message}
     `
     const data = {
-      to: ['khill@integrity-audit.com', 'audits@integrity-audit.com', 'carlos@onpurposeprojects.com'],
+      to: ['khill@integrity-audit.com', 'audits@integrity-audit.com'],
       from: 'Audits <audits@integrity-audit.com>',
       subject: `[Lead from website]: ${body.subject}`,
       text: message,
