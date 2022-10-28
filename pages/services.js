@@ -60,6 +60,7 @@ const Services = () => {
       <TwoColumnsWithImage
         container
         containerClass="pt-0"
+        columnImageClass="bg-right"
         content={fsoaAuditsContent} />
 
       <IconBox
