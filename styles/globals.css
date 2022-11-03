@@ -33,7 +33,7 @@
   h1::after,
   h2::after,
   h3::after {
-    content: '';
+    content: "";
     @apply absolute;
     @apply bottom-0;
     @apply left-0;
@@ -41,7 +41,8 @@
     @apply md:w-[360px];
     @apply max-w-full;
     @apply h-[5px];
-    background: transparent linear-gradient(270deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
     box-shadow: 0px 5px 20px #00000029;
   }
   .text-center h1::after,
@@ -77,7 +78,7 @@
     @apply mb-0;
   }
   label,
-  [type='submit'] {
+  [type="submit"] {
     @apply leading-[24px];
     @apply text-[20px];
   }
@@ -88,14 +89,14 @@
   label:first-child {
     @apply mt-0;
   }
-  input[type='text'],
-  input[type='email'],
+  input[type="text"],
+  input[type="email"],
   textarea {
     @apply mb-[5px];
     @apply text-tertiary;
     @apply border-0;
   }
-  [type='submit'],
+  [type="submit"],
   .btn-default {
     @apply w-[200px];
     @apply py-[13px];
@@ -104,9 +105,10 @@
     @apply text-white;
     @apply bg-primary;
     @apply hover:bg-secondary;
+    @apply transition-colors;
     @apply block;
   }
-  [type='submit'] {
+  [type="submit"] {
     @apply w-full;
     @apply md:w-[200px];
     @apply mt-[25px];
@@ -141,7 +143,7 @@
     @apply p-[20px];
     @apply lg:pt-[50px];
     @apply bg-white;
-    box-shadow: 0px 5px 20px #0000001A;
+    box-shadow: 0px 5px 20px #0000001a;
     @apply flex;
     @apply flex-wrap;
     @apply justify-between;
@@ -212,22 +214,24 @@
     @apply mix-blend-multiply;
   }
   .hero-container.regular::after {
-    content: '';
+    content: "";
     @apply absolute;
     @apply top-0;
     @apply w-full;
     @apply h-full;
-    background: transparent linear-gradient(259deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(259deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
     @apply mix-blend-multiply;
     @apply -z-[1];
   }
   .hero-container.custom::after {
-    content: '';
+    content: "";
     @apply absolute;
     @apply top-0;
     @apply w-full;
     @apply h-full;
-    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF69 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #ffffff 0%, #ffffff69 100%)
+      0% 0% no-repeat padding-box;
     @apply -z-[1];
   }
   .hero-container .column-content .title {
@@ -291,7 +295,7 @@
     @apply mix-blend-multiply;
   }
   .one-column-container.bg-image::after {
-    content: '';
+    content: "";
     @apply absolute;
     @apply top-0;
     @apply w-full;
@@ -334,7 +338,8 @@
     @apply mb-[30px];
   }
   .team-container {
-    background: transparent linear-gradient(198deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(198deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
   }
   .team-container .container {
     @apply flex;
@@ -364,7 +369,8 @@
     @apply mb-[30px];
     @apply sm:mb-[50px];
     @apply p-[11px];
-    background: transparent linear-gradient(270deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
     @apply rounded-full;
     box-shadow: 0px 5px 20px #00000029;
   }
@@ -385,7 +391,8 @@
     @apply md:text-left;
   }
   .articles-container {
-    background: transparent linear-gradient(270deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
   }
   .articles-container .container {
     @apply flex;
@@ -395,7 +402,7 @@
   }
   .articles-container .articles-index h2::after {
     @apply md:w-[402px];
-    background: #FFFFFF;
+    background: #ffffff;
   }
   .articles-container .articles-index ul {
     @apply mt-[22px];
@@ -424,14 +431,15 @@
     @apply pb-[15px];
   }
   .articles-container .articles-item-container > .meta::after {
-    content: '';
+    content: "";
     @apply absolute;
     @apply bottom-0;
     @apply left-0;
     @apply w-full;
     @apply md:w-[402px];
     @apply h-[5px];
-    background: transparent linear-gradient(270deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
     box-shadow: 0px 5px 20px #00000029;
   }
   .articles-container .articles-item-container > .meta .title {
@@ -473,17 +481,18 @@
     @apply md:pt-[90px];
     @apply lg:pt-[134px];
     @apply pb-[50px];
-    background-image: url('/img-bg-footer.jpg');
+    background-image: url("/img-bg-footer.jpg");
     @apply mix-blend-multiply;
     @apply bg-cover;
   }
   .footer-top-container::after {
-    content: '';
+    content: "";
     @apply absolute;
     @apply top-0;
     @apply w-full;
     @apply h-full;
-    background: transparent linear-gradient(235deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(235deg, #2cac16 0%, #0449a2 100%) 0%
+      0% no-repeat padding-box;
     @apply mix-blend-multiply;
     @apply -z-[1];
   }
@@ -521,7 +530,9 @@
 
   @media (min-width: 1024px) {
     .one-column-container.bg-image::after {
-      background: transparent linear-gradient(90deg, #F6F6F6 0%, #FBFBFBCC 53%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+      background: transparent
+        linear-gradient(90deg, #f6f6f6 0%, #fbfbfbcc 53%, #ffffff00 100%) 0% 0%
+        no-repeat padding-box;
     }
   }
 }
