@@ -2,25 +2,25 @@ import { FaPhoneAlt } from 'react-icons/fa'
 
 export const navContent = [
   {
-    title: 'Audit & Accounting Services',
+    title: 'Services',
     link: '/#energy-solutions',
     extLink: false,
     customColor: false
   },
   {
-    title: 'About Integrity',
+    title: 'About',
     link: '/about-us',
     extLink: false,
     customColor: false
   },
   {
-    title: 'Energy Accounting Resources',
+    title: 'Resources',
     link: '/resources',
     extLink: false,
     customColor: false
   },
   {
-    title: 'Contact Us',
+    title: 'Contact',
     link: '#contact-us',
     extLink: false,
     customColor: false

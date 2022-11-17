@@ -17,63 +17,63 @@ export const energySolutionsContent = {
       icon: icoJointVenturePartnershipAuditing,
       alt: 'Joint Venture & Partnership Auditing',
       content: '',
-      link: '/services'
+      link: '/auditing'
     },
     {
       title: <p className="title">Joint Venture & Operational Accounting</p>,
       icon: icoJointVentureOperationalAccounting,
       alt: 'Joint Venture & Operational Accounting',
       content: '',
-      link: '/services'
+      link: '/accounting'
     },
     {
       title: <p className="title">Automation Solutions for<br />Audit & Accounting</p>,
       icon: icoAutomationSolutionsAuditAccounting,
       alt: 'Automation Solutions for Audit & Accounting',
       content: '',
-      link: '/services'
+      link: '/automation'
     },
     {
       title: <p className="title">Indian Oil and Gas Canada (IOGC) Trucking Audits</p>,
       icon: icoIogcTruckingAudits,
       alt: 'Indian Oil and Gas Canada (IOGC) Trucking Audits',
       content: '',
-      link: '/services'
+      link: '/iogc'
     },
     {
       title: <p className="title">Fraud Investigation</p>,
       icon: icoFraudInvestigation,
       alt: 'Fraud Investigation',
       content: '',
-      link: '/services'
+      link: '/fraud'
     },
     {
       title: <p className="title">Expert Witness Reports, Mediation & Dispute Resolution</p>,
       icon: icoExpertWitnessReportsMediationDisputeResolution,
       alt: 'Expert Witness Reports, Mediation & Dispute Resolution',
       content: '',
-      link: '/services'
+      link: '/expertwitness'
     },
     {
       title: <p className="title">Inventories, Contract Compliance & Vendor Audits</p>,
       icon: icoInventoriesContractComplianceVendorAudits,
       alt: 'Inventories, Contract Compliance & Vendor Audits',
       content: '',
-      link: '/services'
+      link: '/compliance'
     },
     {
       title: <p className="title">Audit Coordination & Responses</p>,
       icon: icoAuditCoordinationResponses,
       alt: 'Audit Coordination & Responses',
       content: '',
-      link: '/services'
+      link: '/coordination'
     },
     {
       title: <p className="title">Custom Industry Training & Information Sessions</p>,
       icon: icoCustomIndustryTrainingInformationSessions,
       alt: 'Custom Industry Training & Information Sessions',
       content: '',
-      link: '/services'
+      link: '/training'
     }
   ]
 }
