@@ -1,18 +1,18 @@
 export const navContent = [
   {
-    title: 'Audit & Accounting Services',
+    title: 'Services',
     link: '/#energy-solutions'
   },
   {
-    title: 'About Integrity',
+    title: 'About',
     link: '/about-us'
   },
   {
-    title: 'Energy Accounting Resources',
+    title: 'Resources',
     link: '/resources'
   },
   {
-    title: 'Contact Us',
+    title: 'CONTACT',
     link: '#contact-us'
   }
 ]
