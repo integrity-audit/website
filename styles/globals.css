@@ -133,7 +133,26 @@
     @apply md:py-[90px];
     @apply lg:py-[134px];
   }
+
+
+  .iframeVideo {
+    height: 0px;
+    padding-top: 25px;
+    padding-bottom: 56.2%;
+    position: relative;
+  }
+  .iframeVideo iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+
 }
+
+
+
+
 
 @layer utilities {
   header {
