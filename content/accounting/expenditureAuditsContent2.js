@@ -19,5 +19,5 @@ export const expenditureAuditsContent2 = {
 
       </p>
     </>,
-  image: '/img-bg-expenditure-audits.jpg'
+  image: '/production-accounting-services.jpg'
 }

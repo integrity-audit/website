@@ -20,5 +20,5 @@ We also offer services designed to help your company recover costs. These projec
           </p>
 
     </>,
-  image: '/img-bg-allocation-audits.jpg'
+  image: '/cost-recovery-projects.jpg'
 }

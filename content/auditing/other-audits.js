@@ -14,5 +14,5 @@ export const fsoaAuditsContent2 = {
         </ul>
 
     </>,
-  image: '/img-bg-fsoa-audits.jpg'
+  image: '/other-audits.jpg'
 }
