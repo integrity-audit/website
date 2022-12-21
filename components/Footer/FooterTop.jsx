@@ -1,6 +1,6 @@
 import FooterForm from './FooterForm'
 import FooterInfo from './FooterInfo'
-import FooterLogo from './FooterLogo'
+
 import FooterNav from './FooterNav'
 
 const FooterTop = () => {
@@ -14,7 +14,7 @@ const FooterTop = () => {
         </div>
       </div>
       <div className="container pt-[50px] pb-0 text-center">
-        <FooterLogo />
+
         <FooterNav />
       </div>
     </div>

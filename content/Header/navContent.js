@@ -3,7 +3,7 @@ import { FaPhoneAlt } from 'react-icons/fa'
 export const navContent = [
   {
     title: 'Services',
-    link: '/#energy-solutions',
+    link: '/#joint-venture-audit-services',
     extLink: false,
     customColor: false
   },

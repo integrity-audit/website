@@ -11,7 +11,7 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Fraud Investigation
+        FRAUD INVESTIGATION
       </h1>
       <p>Fraud or “white collar” crime is increasing at an alarming rate both in Canada and around the world. Integrity understands the complexity, confidentiality and discretion required when completing fraud investigations and forensic accounting engagements.</p>
       <Link href="#contact-us">

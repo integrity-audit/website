@@ -11,10 +11,10 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Joint Venture & Partnership Auditing
+        Joint Venture and Partnership Auditing
       </h1>
       <p>Integrity Audit and Accounting are experts in conducting energy joint venture audits and partnership audits. Established in 2011, we audit Canadian, American, and international joint ventures and partnerships.</p>
-      <p>Audits generally fall into three main categories—Expenditure Audits, Production Allocation & Revenue Audits, and Final Statement of Adjustments (FSOA) Audits—and our team specializes in all three.</p>
+      <p>Audits generally fall into three main categories—Expenditure Audits, Production Allocation and Revenue Audits, and Final Statement of Adjustments (FSOA) Audits—and our team specializes in all three.</p>
       <Link href="#contact-us">
         <a className="btn-default">Contact Us</a>
       </Link>

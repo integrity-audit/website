@@ -23,7 +23,7 @@ const Home = () => {
         containerClass="pt-[258px] md:pt-[505px] pb-[50px] md:pb-[85px] lg:py-[85px] bg-[#F6F6F6] bg-[length:auto_208px] md:bg-[length:auto_420px] lg:bg-cover bg-right-top lg:bg-left-bottom"
         contentClass="lg:max-w-[529px]"
         content={heroContent} />
-
+<a id="joint-venture-audit-services"><br></br></a>
       <IconBox
         centerContent
         containerId="energy-solutions"

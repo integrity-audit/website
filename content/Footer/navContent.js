@@ -1,7 +1,7 @@
 export const navContent = [
   {
     title: 'Services',
-    link: '/#energy-solutions'
+    link: '/#joint-venture-audit-services'
   },
   {
     title: 'About',

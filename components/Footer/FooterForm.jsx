@@ -141,6 +141,7 @@ const FooterForm = () => {
         )}
         <label htmlFor="message">Message</label>
         <textarea
+          rows="8"
           id="message"
           name="message"
           value={message}

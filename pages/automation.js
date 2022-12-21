@@ -1,21 +1,21 @@
 import Head from "next/head";
 import Hero from "../components/Hero/Hero";
+import OneColumn from "../components/OneColumn/OneColumn";
 import TwoColumnsWithImage from "../components/TwoColumnsWithImage/TwoColumnsWithImage";
 import IconBox from "../components/IconBox/IconBox";
 import OurMission from "../components/OurMission/OurMission";
 
 import { heroContent } from "../content/automation/heroContent.js";
-import { expenditureAuditsContent } from "../content/automation/expenditureAuditsContent.js";
-import { allocationAuditsContent } from "../content/automation/allocationAuditsContent.js";
-import { fsoaAuditsContent } from "../content/automation/fsoaAuditsContent.js";
-import { integrityAdvantageContent } from "../content/Training/integrityAdvantageContent.js";
+import { expenditureAuditsContent } from "../content/automation/aiq-technology.js";
+import { expenditureAuditsContent2 } from "../content/automation/aiq-video.js";
+import { integrityAdvantageContent } from "../content/automation/integrityAdvantageContent.js";
 
 const Services = () => {
   return (
     <>
       <Head>
         <title>
-          Indian Oil and Gas Canada (IOGC) Trucking Audits |{" "}
+        Automation Solutions for Audit and Accounting |{" "}
           {process.env.NEXT_PUBLIC_SITE_NAME}
         </title>
         <meta
@@ -30,34 +30,25 @@ const Services = () => {
         contentClass="lg:max-w-[570px]"
         content={heroContent}
       />
-
       <TwoColumnsWithImage
         container
         containerClass="pb-0"
         columnContentClass="first"
-        content={expenditureAuditsContent}
-      />
+        content={expenditureAuditsContent} />
 
       <TwoColumnsWithImage
         container
         imageOnRight
-        containerClass="py-0"
-        content={allocationAuditsContent}
-      />
-
-      <TwoColumnsWithImage
-        container
         containerClass="pt-0"
-        columnImageClass="bg-right"
-        content={fsoaAuditsContent}
-      />
+        content={expenditureAuditsContent2} />
+
 
       <IconBox
         container
         iconOnLeft
         bgContainer="transparent linear-gradient(227deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box"
         containerClass="gap-[40px] lg:gap-[82px]"
-        itemClass="w-full lg:w-[calc(50%-41px)]"
+        itemClass="w-full lg:w-[calc(32%-41px)]"
         content={integrityAdvantageContent}
       />
       <OurMission />

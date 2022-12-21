@@ -11,9 +11,9 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Custom Industry Training and Information Sessions
+        CUSTOM INDUSTRY TRAINING AND INFORMATION SESSIONS
       </h1>
-      <p>Our experienced professionals are able to provide custom training to groups or individuals on any joint venture accounting, joint venture protocol, or operational accounting topic. You decide the kind of custom training you’re interested in, and we can make it happen.</p>
+      <p>Strengthen yourself or your team with custom sessions on joint venture or operational accounting. Our experienced professionals can provide custom training to groups or individuals on any joint venture accounting, joint venture protocol, or operational accounting topic. You decide the kind of custom training you’re interested in, and we can make it happen.</p>
       <Link href="#contact-us">
         <a className="btn-default">Contact Us</a>
       </Link>

@@ -1,9 +1,9 @@
 export const allocationAuditsContent = {
   content:
     <>
-      <h2>Cost Recoveries Projects</h2>
+      <h2>Cost Recovery Projects</h2>
 <p>
-In addition to joint venture and operational accounting, we also provide services design to help your company recover costs. These projects begin with a review and analysis of governing agreements to ensure optimal cost recoveries and ensure operational accounting efficiency.
+We also offer services designed to help your company recover costs. These projects have identified very large amounts in potential recoveries for our clients. 
 
 
       <br></br><br></br>

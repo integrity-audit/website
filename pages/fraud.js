@@ -5,15 +5,15 @@ import IconBox from '../components/IconBox/IconBox'
 import OurMission from '../components/OurMission/OurMission'
 
 import { heroContent } from '../content/Fraud/heroContent.js'
-import { expenditureAuditsContent } from '../content/Fraud/expenditureAuditsContent.js'
-import { allocationAuditsContent } from '../content/Fraud/allocationAuditsContent.js'
-import { integrityAdvantageContent } from '../content/Services/integrityAdvantageContent.js'
+import { expenditureAuditsContent } from '../content/Fraud/cfe.js'
+import { allocationAuditsContent } from '../content/Fraud/fraudinvestigation.js'
+import { integrityAdvantageContent } from '../content/Training/integrityAdvantageContent.js'
 
 const Services = () => {
   return (
     <>
       <Head>
-        <title>Inventories, Contract Compliance & Vendor Audits | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
+        <title>Fraud Investigation | {process.env.NEXT_PUBLIC_SITE_NAME}</title>
         <meta name="description" content="Oil and gas joint venture auditing and accounting services based in Calgary, Alberta." />
       </Head>
 
@@ -32,18 +32,15 @@ const Services = () => {
       <TwoColumnsWithImage
         container
         imageOnRight
-        containerClass="py-0"
+        containerClass="pt-0"
         content={allocationAuditsContent} />
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+
 <IconBox
         container
         iconOnLeft
         bgContainer="transparent linear-gradient(227deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box"
         containerClass="gap-[40px] lg:gap-[82px]"
-        itemClass="w-full lg:w-[calc(50%-41px)]"
+        itemClass="w-full lg:w-[calc(32%-41px)]"
         content={integrityAdvantageContent} />
          <OurMission />
    

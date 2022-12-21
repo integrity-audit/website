@@ -6,10 +6,10 @@ import OurMission from "../components/OurMission/OurMission";
 
 import { heroContent } from "../content/auditing/heroContent.js";
 import { expenditureAuditsContent } from "../content/auditing/expenditureAuditsContent.js";
-import { allocationAuditsContent } from "../content/auditing/allocationAuditsContent.js";
-import { expenditureAuditsContent2 } from "../content/auditing/expenditureAuditsContent2.js";
+import { allocationAuditsContent } from "../content/auditing/production-audits.js";
+import { expenditureAuditsContent2 } from "../content/auditing/equalizations.js";
 import { fsoaAuditsContent } from "../content/auditing/fsoaAuditsContent.js";
-import { fsoaAuditsContent2 } from "../content/auditing/fsoaAuditsContent2.js";
+import { fsoaAuditsContent2 } from "../content/auditing/other-audits.js";
 import { integrityAdvantageContent } from "../content/Training/integrityAdvantageContent.js";
 
 const Services = () => {

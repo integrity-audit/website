@@ -11,7 +11,7 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Audit Coordination and Responses
+        AUDIT COORDINATION AND RESPONSES
       </h1>
       <p>Are you being audited? Our team of experts can help you get through it as smoothly as possible. We provide audit coordination services for all stages of joint venture audits. We are also available to assist you with seeing joint venture audits resolved.</p>
       <Link href="#contact-us">

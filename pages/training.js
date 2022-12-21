@@ -5,8 +5,8 @@ import IconBox from '../components/IconBox/IconBox'
 import OurMission from '../components/OurMission/OurMission'
 
 import { heroContent } from '../content/Training/heroContent.js'
-import { expenditureAuditsContent } from '../content/Training/expenditureAuditsContent.js'
-import { allocationAuditsContent } from '../content/Training/allocationAuditsContent.js'
+import { expenditureAuditsContent } from '../content/Training/joint-venture-training.js'
+import { allocationAuditsContent } from '../content/Training/operational-accounting.js'
 import { integrityAdvantageContent } from '../content/Training/integrityAdvantageContent.js'
 
 const Services = () => {
@@ -32,18 +32,15 @@ const Services = () => {
       <TwoColumnsWithImage
         container
         imageOnRight
-        containerClass="py-0"
+        containerClass="pt-0"
         content={allocationAuditsContent} />
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+
 <IconBox
         container
         iconOnLeft
         bgContainer="transparent linear-gradient(227deg, #2CAC16 0%, #0449A2 100%) 0% 0% no-repeat padding-box"
         containerClass="gap-[40px] lg:gap-[82px]"
-        itemClass="w-full lg:w-[calc(50%-41px)]"
+        itemClass="w-full lg:w-[calc(32%-41px)]"
         content={integrityAdvantageContent} />
       <OurMission />
  

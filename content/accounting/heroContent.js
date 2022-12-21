@@ -11,7 +11,7 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Joint Venture & Operational Accounting
+        JOINT VENTURE AND OPERATIONAL ACCOUNTING
       </h1>
       <p>Outsourcing joint venture accounting can reduce costs and increase expertise. We offer joint venture accountant, joint venture analyst, and production accountant services for specific projects and also on a part-time or full-time contract basis. Contact us to learn how we can tailor a solution to fit exactly what you need.
 

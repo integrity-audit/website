@@ -4,47 +4,39 @@ import icoApproval from '../../public/img-ico-approval.svg'
 import icoIdea from '../../public/img-ico-idea.svg'
 
 export const integrityAdvantageContent = {
-  title: 'The Integrity Advantage',
+  title: 'The Benefits of Audit-iQ',
   description:
-    <>
-      <p>Joint venture audits and partnership audits in the oil and gas industry require expertise in a number of areas, including accounting, operations, contract compliance, systems, and technology. These audits demand well-rounded experts who can make the most of limited time, quickly getting up to speed on properties, agreements, and processes.</p>
-      <p>Our team of experienced auditors can help identify issues and validate the accounting of expenditures, revenue, and product allocations according to the terms of the governing agreements. Our auditors can also watch for procedures and controls, providing expert insights into the joint venture accounting.</p>
-    </>,
+  <>
+    <p>With AiQ, charges can be analyzed using statistical modelling (machine learning) and data analytics. This software provides the first level of detection for coding errors and ineligible charges. While the application does not eliminate the need for human auditors, it facilitates the capability to review up to 95% of reviewable documents, compared with only 30-40% of invoices that are reviewed in traditional (manual) audit. As a propriety technology Audit-iQ is exclusively available to Integrity clients and is not available anywhere else in the industry.
+
+</p>
+  </>,
   items: [
     {
-      title: <h3 className="title">Experience</h3>,
-      icon: icoDiploma,
-      alt: '',
-      content:
-        <>
-          <p>Integrity Audit and Accounting employs a team of auditors with a proven track record in joint venture accounting and auditing. Many of our auditors have worked in senior industry positions, and they bring their experience to bear on every audit. Our auditors are equipped to conduct detailed reviews of drilling and completions, construction, overhead, payroll, property tax, electrical power, allocated expenses, production accounting, product allocations, and revenue distribution, amoung other areas.</p>
-        </>
-    },
-    {
-      title: <h3 className="title">Client Support</h3>,
-      icon: icoCustomerSupport,
-      alt: '',
-      content:
-        <>
-          <p>We support clients who require assistance with preparation, including selecting operators/properties, preparing mail ballots and participation letters, scheduling audits with operators, and also reviewing audit responses and rebuttals. We are also prepared to dig into specific questions or concerns you may have about properties under audit. With Integrity, help is only a call or email away.</p>
-        </>
-    },
-    {
-      title: <h3 className="title">Protocol Compliant</h3>,
+      title: <h3 className="title">Reduced Audit Costs</h3>,
       icon: icoApproval,
       alt: '',
       content:
         <>
-          <p>There are strict protocols in place for how joint venture audits are to be conducted. Our auditors know and follow these protocols, which helps maintain positive relationships with Operators and promotes successful audits.</p>
+          <p>The audit automation software developed by Integrity Technology Solutions (ITS) provides the first level of vouching and reviewing that was traditionally completed by auditors manually.</p><p>By automating this step, we can to reduce the total amount of audit time required, which reduces the total cost for audits. We pass this savings on to our clients, making audits more accessible to large and small companies alike.</p>
         </>
     },
     {
-      title: <h3 className="title">Proprietary Technology</h3>,
-      icon: icoIdea,
+      title: <h3 className="title">Increased Coverage</h3>,
+      icon: icoApproval,
       alt: '',
       content:
         <>
-          <p>Our custom sofware application uses a combination of data-analytics, AI, and machine learning technologies to make audits more accurate and efficient. This technology reduces audit time, which saves you money and gets results faster.</p>
+          <p>Manual reviews of invoices are slow and time-consuming. Auditors frequently are only able to sample portions of the total invoices under audit. By automating the initial stage of reviewing invoices, there is the potential for significantly more invoices to be reviewed in the same or less time.</p><p>The increased audit coverage provided by Audit-iQ means increased diligence and certaintity, making your audits more beneficial.</p>
+        </>
+    },
+    {
+      title: <h3 className="title">Increased Accuracey</h3>,
+      icon: icoApproval,
+      alt: '',
+      content:
+        <>
+          <p>It is said, “to err is human.” However, Integrity’s software does not become weary, even after reviewing thousands of invoices in the span of a few hours. This can lead to increases in audit accuracy, as items that may be overlooked by a human are identified by the software and flagged for additional reviews by auditors.</p><p>This last step, human review, is crucial. Human auditors are capable of the additional critical thinking and problem solving to verify if flagged items should be raised as audit exceptions</p>
         </>
     }
   ]

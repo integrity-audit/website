@@ -13,6 +13,7 @@
     @apply md:text-lg;
     @apply text-tertiary;
   }
+  h0,
   h1,
   h2,
   h3,
@@ -22,7 +23,6 @@
     @apply relative;
     @apply font-heading;
     @apply font-bold;
-    @apply uppercase;
     @apply text-secondary;
   }
   h1,
@@ -158,7 +158,7 @@
   header .logo {
     @apply max-w-[65%];
     @apply md:max-w-[60%];
-    @apply lg:max-w-[388px];
+    @apply lg:max-w-[800px];
     @apply lg:mx-auto;
     @apply lg:mb-[50px];
   }
@@ -255,8 +255,14 @@
   }
   .hero-container .column-content .sub-title {
     @apply md:leading-[43px];
-    @apply md:text-[30px];
-    @apply text-[#7B7B7B];
+    @apply md:text-[25px];
+
+  }
+  .hero-container .column-content .sub-title span{
+    @apply md:leading-[43px];
+    @apply md:text-[25px];
+    @apply text-primary;
+
   }
   .hero-container .column-content p:last-of-type {
     @apply mb-0;
@@ -518,7 +524,7 @@
     .hero-container .column-content,
     .two-columns-with-image-container .column-content,
     .container .column {
-      text-align: center;
+      text-align: left;
     }
     .hero-container .column-content .btn-default,
     .two-columns-with-image-container .column-content .btn-default,

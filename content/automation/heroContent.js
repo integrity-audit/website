@@ -11,7 +11,7 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Automation Solutions for Audit & Accounting
+        AUTOMATION SOLUTIONS FOR AUDIT AND ACCOUNTING
       </h1>
       <p>Driven by its belief that innovation is imperative, in 2018 Integrity Audit and Accounting founded a sister company, <a href="https://integrity-techsolutions.com/" target="blank"><u>Integrity Technology Solutions (ITS)</u></a>. Integrity Technology Solutions develops proprietary software for energy accounting and audit automation. These solutions are developed by experienced auditors and energy accountants who understand the unique challenges and opportunities faced by the industry.
 

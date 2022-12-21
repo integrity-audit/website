@@ -11,9 +11,9 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Inventories, Contract Compliance & Vendor Audits
+        INVENTORIES, CONTRACT COMPLIANCE, AND VENDOR AUDITS
       </h1>
-      <p>We offer inventory reviews (including physical counts), contract compliance audits, and vendor audits. Get the answers you need from professionals you can trust. </p>
+      <p>If you are looking for expertise or due diligence, our team are here to assist you. We offer inventory reviews (including physical counts), contract compliance audits, and vendor audits. Get the answers you need from professionals you can trust. </p>
       <Link href="#contact-us">
         <a className="btn-default">Contact Us</a>
       </Link>

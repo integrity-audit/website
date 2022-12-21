@@ -11,7 +11,7 @@ export const heroContent = {
           className="width-90"
           src={icoJointVenturePartnershipAuditing}
           alt="" />
-        Expert Witness, Mediation & Dispute Resolution
+        EXPERT WITNESS, MEDIATION, AND DISPUTE RESOLUTION
       </h1>
       <p>Some problems can only be solved with the help of an independent expert. Whether you require an expert witness, mediation, or dispute resolution, we can help you move forward.   
         
