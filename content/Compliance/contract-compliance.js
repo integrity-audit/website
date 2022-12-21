@@ -7,13 +7,13 @@ export const allocationAuditsContent = {
 
          
       <ul>
-        <li>▪ Rate Comparisons to Master Service Agreements</li>
-        <li>▪ Unapproved Variances in Billings</li>
-        <li>▪ Corporate Safety Policy Compliance</li>
-        <li>▪ Employee Expense Statement Reviews</li>
-        <li>▪ Duplicate Billings Identification</li>
-        <li>▪ Drug and Alcohol Abuse Policy Compliance</li>
-        <li>▪ Valid Insurance Coverage/Worker’s Compensation</li>
+        <li>‣ Rate Comparisons to Master Service Agreements</li>
+        <li>‣ Unapproved Variances in Billings</li>
+        <li>‣ Corporate Safety Policy Compliance</li>
+        <li>‣ Employee Expense Statement Reviews</li>
+        <li>‣ Duplicate Billings Identification</li>
+        <li>‣ Drug and Alcohol Abuse Policy Compliance</li>
+        <li>‣ Valid Insurance Coverage/Worker’s Compensation</li>
         
       </ul></p>
     </>,

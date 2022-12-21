@@ -9,10 +9,10 @@ export const expenditureAuditsContent = {
       <br></br><br></br>
          <b>SERVICES</b>
       <ul>
-        <li>▪ Joint Interest Billings</li>
-        <li>▪ Consulting on JVB/JIB Dispute Resolution</li>
-        <li>▪ Calculation of Custom Processing Fees</li>
-        <li>▪ Preparation of Service Agreements</li>
+        <li>‣ Joint Interest Billings</li>
+        <li>‣ Consulting on JVB/JIB Dispute Resolution</li>
+        <li>‣ Calculation of Custom Processing Fees</li>
+        <li>‣ Preparation of Service Agreements</li>
 
       </ul>
           
@@ -20,5 +20,5 @@ export const expenditureAuditsContent = {
 
       </p>
     </>,
-  image: '/jointventure.jpg'
+  image: '/joint-venture-accountant.jpg'
 }

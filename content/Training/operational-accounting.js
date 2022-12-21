@@ -7,9 +7,9 @@ export const allocationAuditsContent = {
         Your team can grow in their operational accunting skills through custom training. Some common topics include:</p><p>
 
         <ul>
-          <li>▪ Equalizations and Thirteenth Month Adjustments</li>
-          <li>▪ Joint Interest Billing Analysis</li>
-          <li>▪ Subject-specific Questions and Answers</li>
+          <li>‣ Equalizations and Thirteenth Month Adjustments</li>
+          <li>‣ Joint Interest Billing Analysis</li>
+          <li>‣ Subject-specific Questions and Answers</li>
         </ul>
       </p>
     </>,

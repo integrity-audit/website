@@ -10,10 +10,10 @@ export const expenditureAuditsContent3 = {
       <ul>
 
 
-        <li>▪ Master File Maintenance and Accounting System Setup</li>
-        <li>▪ Month End Processing</li>
-        <li>▪ Cash Call Management</li>
-        <li>▪ Subledger/Partner Reconciliations and Collections</li>
+        <li>‣ Master File Maintenance and Accounting System Setup</li>
+        <li>‣ Month End Processing</li>
+        <li>‣ Cash Call Management</li>
+        <li>‣ Subledger/Partner Reconciliations and Collections</li>
 
       </ul>
           
@@ -21,5 +21,5 @@ export const expenditureAuditsContent3 = {
 
       </p>
     </>,
-  image: '/joint-venture-accounting.jpg'
+  image: '/operational-accounting.jpg'
 }

@@ -10,10 +10,10 @@ We also offer services designed to help your company recover costs. These projec
          <b>PROJECTS</b>
       <ul>
 
-        <li>▪ Overhead Reviews</li>
-        <li>▪ Payroll/Personnel Reviews</li>
-        <li>▪ Cost Allocation Methodologies</li>
-        <li>▪ G&A Cost Reviews</li>
+        <li>‣ Overhead Reviews</li>
+        <li>‣ Payroll/Personnel Reviews</li>
+        <li>‣ Cost Allocation Methodologies</li>
+        <li>‣ G&A Cost Reviews</li>
 
 
       </ul>

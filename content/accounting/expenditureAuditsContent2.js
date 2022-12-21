@@ -7,10 +7,10 @@ export const expenditureAuditsContent2 = {
       <p>
             <b>SERVICES</b>
       <ul>
-        <li>▪ Production Accounting Services</li>
-        <li>▪ Acquisition/Disposition Statement of Adjustments (ISOA/FSOA) </li>
-        <li>▪ Preparation of Equalizations/13th Month Adjustments</li>
-        <li>▪ Royalty Management</li>
+        <li>‣ Production Accounting Services</li>
+        <li>‣ Acquisition/Disposition Statement of Adjustments (ISOA/FSOA) </li>
+        <li>‣ Preparation of Equalizations/13th Month Adjustments</li>
+        <li>‣ Royalty Management</li>
 
 
       </ul>
@@ -19,5 +19,5 @@ export const expenditureAuditsContent2 = {
 
       </p>
     </>,
-  image: '/production-accounting-services.jpg'
+  image: '/production-accountant.jpg'
 }
