@@ -9,10 +9,10 @@ export const infoContent = [
     icon: <FaEnvelope />,
     content: <p>audits@integrity-audit.com</p>
   },
-  {
-    icon: <FaMapMarkerAlt />,
-    content: <p>Integrity Audit and Accounting Ltd.<br />PO Box 33032 RPD Panorama Hills<br />Calgary, AB T3K 0A1</p>
-  },
+  // {
+  //   icon: <FaMapMarkerAlt />,
+  //   content: <p>Integrity Audit and Accounting Ltd.<br />PO Box 33032 RPD Panorama Hills<br />Calgary, AB T3K 0A1</p>
+  // },
   {
     icon: <FaRegClock />,
     content: <p>Monday-Friday<br />8:00 am-5:00 pm MST</p>
