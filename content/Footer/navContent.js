@@ -13,6 +13,6 @@ export const navContent = [
   },
   {
     title: 'CONTACT',
-    link: '#contact-us'
+    link: 'mailto:info@integrity-audit.com'
   }
 ]

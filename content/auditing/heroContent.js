@@ -17,9 +17,7 @@ export const heroContent = {
       We are a complete joint venture audit service provider, equipped to manage all areas of your audits, including operator/property selection, preparation, scheduling, auditing and response/rebuttal. Contact us today to learn more about how we can help you or for a free quote. 
       
    
-      <Link href="#contact-us">
-        <a className="btn-default">Contact Us</a>
-      </Link>
+      <a href="mailto:info@integrity-audit.com" className="btn-default">Contact Us</a>
       </p>
     </>,
   image: '/img-bg-hero5-hires.jpg'

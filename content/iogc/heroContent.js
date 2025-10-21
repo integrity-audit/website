@@ -14,9 +14,7 @@ export const heroContent = {
         INDIAN OIL AND GAS CANADA (IOGC) TRUCKING AUDITS
       </h1>
       <p>Indian Oil and Gas Canada (IOGC) trucking audits possess unique challenges, including large data sets, a variety of typed and handwritten invoices, volumetric reviews, and IOGC scrutiny. You need experts who can navigate these obstacles and provide results you can count on. Integrity has the expertise, people, and technology to optimize IOGC trucking audits.</p>
-      <Link href="#contact-us">
-        <a className="btn-default">Contact Us</a>
-      </Link>
+      <a href="mailto:info@integrity-audit.com" className="btn-default">Contact Us</a>
     </>,
   image: '/img-bg-hero5-hires.jpg'
 }

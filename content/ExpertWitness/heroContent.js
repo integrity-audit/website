@@ -16,9 +16,7 @@ export const heroContent = {
       <p>Some problems can only be solved with the help of an independent expert. Whether you require an expert witness, mediation, or dispute resolution, we can help you move forward.   
         
 </p>
-      <Link href="#contact-us">
-        <a className="btn-default">Contact Us</a>
-      </Link>
+      <a href="mailto:info@integrity-audit.com" className="btn-default">Contact Us</a>
     </>,
   image: '/img-bg-hero5-hires.jpg'
 }
