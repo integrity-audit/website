@@ -21,8 +21,8 @@ export const navContent = [
   },
   {
     title: 'Contact',
-    link: 'mailto:info@integrity-audit.com',
-    extLink: true,
+    link: '#contact-us',
+    extLink: false,
     customColor: false
   },
   {
