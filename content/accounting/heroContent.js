@@ -18,7 +18,7 @@ export const heroContent = {
 
 
 </p>
-      <a href="mailto:info@integrity-audit.com" className="btn-default">Contact Us</a>
+      <a href="#contact-us" className="btn-default">Contact Us</a>
     </>,
   image: '/img-bg-hero5-hires.jpg'
 }

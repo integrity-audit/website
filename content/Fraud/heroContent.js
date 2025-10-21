@@ -14,7 +14,7 @@ export const heroContent = {
         FRAUD INVESTIGATION
       </h1>
       <p>Fraud or “white collar” crime is increasing at an alarming rate both in Canada and around the world. Integrity understands the complexity, confidentiality and discretion required when completing fraud investigations and forensic accounting engagements.</p>
-      <a href="mailto:info@integrity-audit.com" className="btn-default">Contact Us</a>
+      <a href="#contact-us" className="btn-default">Contact Us</a>
     </>,
   image: '/img-bg-hero5-hires.jpg'
 }

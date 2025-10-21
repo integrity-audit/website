@@ -14,7 +14,7 @@ export const heroContent = {
         CUSTOM INDUSTRY TRAINING AND INFORMATION SESSIONS
       </h1>
       <p>Strengthen yourself or your team with custom sessions on joint venture or operational accounting. Our experienced professionals can provide custom training to groups or individuals on any joint venture accounting, joint venture protocol, or operational accounting topic. You decide the kind of custom training you’re interested in, and we can make it happen.</p>
-      <a href="mailto:info@integrity-audit.com" className="btn-default">Contact Us</a>
+      <a href="#contact-us" className="btn-default">Contact Us</a>
     </>,
   image: '/img-bg-hero5-hires.jpg'
 }
